@@ -1,0 +1,2 @@
+# autotests
+Selenium python autotests

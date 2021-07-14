@@ -7,6 +7,7 @@ try:
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
+    #комментарий для комментария
     name = browser.find_element_by_css_selector('.first_block [class="form-control first"]')
     name.send_keys('Test')
     family = browser.find_element_by_css_selector('.first_block [class="form-control second"]')
